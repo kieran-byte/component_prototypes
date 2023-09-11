@@ -1,0 +1,49 @@
+.header {
+    background-color: #2d2d2d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 20px;
+    color: #fe1e33;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+    
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .menu div:hover {
+    color: #fe1e33;
+  }
+
+  .header__text{
+    margin-left: 80px;
+    color: #fe1e33;
+    margin-right: 80px;
+  }
+
+  .header__text:last-child{
+    text-decoration: none;
+    color: lightblue;
+  }
+
+  .header__text:last-child:hover{
+    text-decoration: line-through;
+    content: "NOT pOSSILble";
+    color: red;
+    width: 230px;
+  }
